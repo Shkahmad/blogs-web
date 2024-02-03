@@ -1,0 +1,44 @@
+.container {
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.blogs input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 0.5rem 0.5rem;
+  width: 250px;
+}
+.blogs textarea {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 0.5rem 0.5rem;
+  width: 250px;
+}
+.par{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.btn {
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover{
+    transition-duration: .4s;
+    color: black;
+    background-color: rgb(247, 161, 161);
+}
